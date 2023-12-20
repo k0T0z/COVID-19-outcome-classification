@@ -9,10 +9,10 @@ This is my implementation to CSE375s/CSE381s course project using scikit-learn.
 
 | Parameter | value |
 | --- | --- |
-| n_neighbors | 5 |
+| n_neighbors | 3 |
 | weights | uniform |
 | algorithm | auto |
-| leaf_size | 30 |
+| leaf_size | 10 |
 | p | 2 |
 | metric | minkowski |
 | metric_params | None |
@@ -25,7 +25,7 @@ This is my implementation to CSE375s/CSE381s course project using scikit-learn.
 | penalty | l2 |
 | dual | False |
 | tol | 0.0001 |
-| C | 19.0 |
+| C | 112.9 |
 | fit_intercept | True |
 | intercept_scaling | 1 |
 | class_weight | None |
@@ -43,7 +43,7 @@ This is my implementation to CSE375s/CSE381s course project using scikit-learn.
 | Parameter | value |
 | --- | --- |
 | priors | None |
-| var_smoothing | 1e-09 |
+| var_smoothing | 1000.0 |
 
 ## Decision Trees (DT)
 
@@ -57,13 +57,13 @@ This is my implementation to CSE375s/CSE381s course project using scikit-learn.
 
 # Each model's performance
 
-| --- | Precision | Recall | Cross Validation | ROC | AUC |
-| --- | --- | --- | --- | --- | --- |
-| K-Nearest Neighbors (KNN) | --- | --- | --- | --- | --- |
-| Logistic Regression (LR) | --- | --- | --- | --- | --- |
-| Naïve Bayes (NB) | --- | --- | --- | --- | --- |
-| Decision Trees (DT) | --- | --- | --- | --- | --- |
-| Support Vector Machines (SVM) | --- | --- | --- | --- | --- |
+| --- | Precision | Recall | f1 | Cross Validation | ROC | AUC |
+| --- | --- | --- | --- | --- | --- | --- |
+| K-Nearest Neighbors (KNN) | 0.96 | 0.96 | 0.96 | 0.7069 | --- | 0.90 |
+| Logistic Regression (LR) | 1.00 | 0.95 | 0.97 | 0.7055 | --- | 0.93 |
+| Naïve Bayes (NB) | 1.00 | 0.86 | 0.92 | 0.9375 | --- | 0.88 |
+| Decision Trees (DT) | --- | --- | --- | --- | --- | --- |
+| Support Vector Machines (SVM) | --- | --- | --- | --- | --- | --- |
 
 # Conclusion
 
