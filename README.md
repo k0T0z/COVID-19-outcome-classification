@@ -1,5 +1,5 @@
 # COVID 19 Outcome Classifier
-This is my implementation to CSE375s/CSE381s course project using scikit-learn.
+This is my analysis of different classifiers on WHO organization's dataset using scikit-learn.
 
 # View the notebook using nbviewer from here: [COVID19_outcome_classifier.ipynb](https://nbviewer.org/github/k0T0z/COVID-19-outcome-classifier/blob/master/COVID19_outcome_classifier.ipynb)
 
