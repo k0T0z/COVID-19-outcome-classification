@@ -1,7 +1,10 @@
 # COVID 19 Outcome Classifier
 This is my analysis of different classifiers on WHO organization's dataset using scikit-learn.
 
-# View the notebook using nbviewer from here: [COVID19_outcome_classifier.ipynb](https://nbviewer.org/github/k0T0z/COVID-19-outcome-classifier/blob/master/COVID19_outcome_classifier.ipynb)
+# KNeighborsClassifier, LogisticRegression, and GaussianNB: [COVID19_outcome_classifier.ipynb](https://nbviewer.org/github/k0T0z/COVID-19-outcome-classifier/blob/master/COVID19_outcome_classifier.ipynb)
+# DecisionTreeClassifier and SVC: [COVID19_outcome_classifier2.ipynb](https://nbviewer.org/github/k0T0z/COVID-19-outcome-classifier/blob/master/COVID19_outcome_classifier2.ipynb)
+
+# View the notebook using nbviewer from here: 
 
 # Best hyperparameters for each model
 
